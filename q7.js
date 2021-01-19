@@ -46,7 +46,7 @@ function toArray(str) {
 }
 // the function checks if the input string is in an array platform (q1)
 function is_array(input) {
-  if (input.indexOf("[") === 0 && input.indexOf("]") === input.length - 1) {
+  if (input[0] === "[" && input[InputDeviceInfo.length - 1] === "]") {
     return true;
   } else {
     return false;

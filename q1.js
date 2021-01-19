@@ -8,7 +8,7 @@ function run() {
   // is text (at least I don't know a way), I reffer to it as true if it is
   // written like an array - inside [].
   function is_array(input) {
-    if (input.indexOf("[") === 0 && input.indexOf("]") === input.length - 1) {
+    if (input[0] === "[" && input[InputDeviceInfo.length - 1] === "]") {
       out = true;
     } else {
       out = false;
