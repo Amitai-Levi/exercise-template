@@ -1,3 +1,7 @@
+function instruction() {
+  document.getElementById("instructions").innerText =
+    "The input here doesn't work, try to reach the function 'union(array1,array2)' in the console";
+}
 function run() {
   const input = document.getElementById("input").value;
   const output = document.getElementById("output");

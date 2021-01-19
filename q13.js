@@ -1,3 +1,6 @@
+function instruction() {
+  document.getElementById("instructions").innerText = "run = add item";
+}
 let elements = [];
 let out = "";
 let output;

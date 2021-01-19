@@ -1,3 +1,7 @@
+function instruction() {
+  document.getElementById("instructions").innerText =
+    "Type the year in an array, like this - [1998,2225]. type 2 years, extra years won't be considered";
+}
 function run() {
   let input = document.getElementById("input").value;
   const output = document.getElementById("output");

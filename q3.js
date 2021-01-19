@@ -1,3 +1,7 @@
+function instruction() {
+  document.getElementById("instructions").innerText =
+    "The input here doesn't work, try to active the function 'first(array,start-point)' in the console";
+}
 function run() {
   const input = document.getElementById("input").value;
   const output = document.getElementById("output");

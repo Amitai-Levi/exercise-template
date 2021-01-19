@@ -1,3 +1,7 @@
+function instruction() {
+  document.getElementById("instructions").innerText =
+    "Type the array like this - [[??,??],[??,??.?]] ";
+}
 function run() {
   let input = document.getElementById("input").value;
   const output = document.getElementById("output");

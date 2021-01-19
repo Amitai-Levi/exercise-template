@@ -1,3 +1,11 @@
+function instruction() {
+  document.getElementById("instructions").innerText =
+    "The input here doesn't work, try to reach the function 'binary(array,item)' in the console";
+}
+function instruction() {
+  document.getElementById("instructions").innerText =
+    "Type the array like this - [??,??,??,??.?] ";
+}
 function run() {
   const input = document.getElementById("input").value;
   const output = document.getElementById("output");
